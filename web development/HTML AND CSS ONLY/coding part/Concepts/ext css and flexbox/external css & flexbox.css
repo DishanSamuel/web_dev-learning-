@@ -1,0 +1,72 @@
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.test {
+  color:aliceblue;
+  background-color: black;
+  display: inline;                                                    /** display can be block or inline learn form net */
+}
+
+#id1 {
+  height: 300;
+  width: 250px;
+  border-radius: 50%;
+  background-color: aquamarine;
+  color:blueviolet;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+/* !learn flex basis,flex box,etc in codedamm web dev (2:00:00) */
+
+
+.blocks{
+  display: flex;                                                            /**default flex direction is set to 'row' */ 
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.blocks div{                                                             /** there is a div added after the class 'block'*/
+  background-color: blueviolet;                                        /** because we need to chose all the div inside that class*/
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  margin: 1%;
+  flex-basis: 400px;                                                       /** as here flex dir is 'row' so horizontal is the main axis so here flex basis will affect the 'width' and the previous width property will just be ignored*/
+  flex-shrink: 0;
+}
+
+
+.blocks2{
+  display: flex;                                                            
+  flex-direction: column;
+}
+
+
+
+.blocks2 div{                                                             
+  background-color: blueviolet;                                        
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  margin: 1%;
+  flex-basis: 400px;                                                       
+}
+
+
+
+
+
+
+

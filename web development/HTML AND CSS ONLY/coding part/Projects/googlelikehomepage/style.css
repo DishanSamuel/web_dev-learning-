@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li{
+    list-style: none;                                         /** This will disable the bullet points */
+    padding: 10px; 
+    margin: 2px;
+    background-color: blanchedalmond;
+}
+
+
+section {
+    display: flex;
+    flex-grow: 1;                                            /**this will help use to use the entire web page */
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    height: 200px;
+    width: 400px;
+    background-color: brown;
+}
+
+#sublogo{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+
+.foot {
+    padding: 10px;
+    margin: 3px;
+    background-color: aquamarine;
+    border: 2px solid black;
+}

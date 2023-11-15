@@ -1,0 +1,15 @@
+.main .submain .sub-submain h1 {
+    border: 2px solid black;
+    color: aqua;
+    background-color: blue;
+}
+
+.main .submain .sub-submain {
+    background-color: rgb(174, 16, 206);
+}
+
+
+/** note the above eg is not nesting. this is to show you hwo big is gets if we don't use nesting. */
+/** we can also nest the above style. to know more search the internet */
+
+

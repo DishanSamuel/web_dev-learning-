@@ -1,0 +1,18 @@
+* {                                                                    /** "*" This means apply this property to all */
+    margin: 0%;
+}
+
+#parent {
+    display: flex;
+    height:100vh;
+    background-color: red;
+    justify-content: center;                                            /**"justify-content" is used to position in main axis according to flex dir a child element inside a parent element*/
+    align-items: center;                                                /** same as above but for the secondary axis*/
+}   
+
+#child {
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
